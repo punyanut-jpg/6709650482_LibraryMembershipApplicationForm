@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Tiny5&display=swap');
 body{
     margin: 0px;
-    background-color: rgb(230, 183, 112);
+    background-color: rgb(255, 207, 134);
 }
 
 header{
@@ -9,9 +9,36 @@ header{
     text-align: center;
     background-image: url(resourse/360_F_625254822_ZnId6bB60hqC9WXH1uEzViKtLznxHv6t.jpg);
     background-repeat:repeat;
+    background-size:240px;
     color: rgb(255, 254, 237);
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
     filter:opacity(85%); 
 }
 
+fieldset{
+    padding: 30px;
+    background-color: rgb(255, 245, 213);
+    border: 1px solid rgb(255, 245, 213);
+    border-radius: 20px;
+}
+
+legend{
+    background-color: rgb(137, 208, 255);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+form{
+    padding-left: 10%;    
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+label b{
+    color: red;
+}
+
+.firstname{
+    margin: 20px;
+}
