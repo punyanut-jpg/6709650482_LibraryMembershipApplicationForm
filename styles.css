@@ -6,15 +6,15 @@ body{
 }
 
 header{
-    padding: 30px;
+    padding: 40px;
     text-align: center;
     background-image: url(resourse/360_F_625254822_ZnId6bB60hqC9WXH1uEzViKtLznxHv6t.jpg);
     background-repeat:repeat;
-    background-size:240px;
+    background-size:272px;
     color: rgb(255, 254, 237);
     font-size: 30px;
     font-family: "Archivo Black", sans-serif;
-    filter:opacity(85%); 
+    filter:opacity(80%); 
 }
 
 fieldset{
@@ -27,12 +27,19 @@ fieldset{
 div{
     margin: auto;
     width: 350px;
+    color: rgb(42, 28, 15);
 }
 
 legend{
-    background-color: rgb(137, 208, 255);
-    padding: 15px;
-    border-radius: 20px;
+    background-color: rgb(88, 188, 255);
+    padding: 14px 40px;
+    border-radius: 40px;
+    border-style:dashed;
+    border-width: 2.5px;
+    border-color: hsl(209, 88%, 60%);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+
 }
 
 form{
@@ -40,8 +47,9 @@ form{
     width: 600px;
     padding-top: 4%;
     padding-bottom: 4%;
-    line-height: 2.5;
+    line-height: 2.3;
     font-family: "Roboto", sans-serif;;
+    font-size: 16px;
 
 }
 
@@ -49,6 +57,6 @@ label b{
     color: red;
 }
 
-.firstname{
-    margin: 20px;
+label #agree{
+    text-align: center;
 }
